@@ -89,13 +89,53 @@ form input {
 .photograph-header img {
     width: 200px;
     height: 200px;
-    position: absolute;
-    left: 79%;
-    top: 75%;
+}
+
+
+.photoOfPortfolio{
+    width: 300px;
+    border-radius: 0;
+}
+
+.articleContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 150px;
     
 }
 
-a{
-    position:relative;
+.articleContainer img{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
+.articleContainer article {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+  
+}
+
+.containerDescription{
+    display: flex;
+    justify-content: space-between;
+    color: #901C1C;
+    
+}
+
+.articleContainer span {
+    color: black;
+    background-color: #DB8876;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+}

@@ -10,6 +10,7 @@
     
     async function displayData(photographers) {
         const photographersSection = document.querySelector(".photographer_section");
+        const photograph_media = document.querySelector('.Medias')
 
         photographers.forEach((photographer) => {
             const photographerModel = photographerFactory(photographer);
@@ -28,7 +29,6 @@
     };
     
     init();
-
 
 
 
